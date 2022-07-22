@@ -6,6 +6,15 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
   url      = env("DATABASE_URL")
+}
+
+model Project {
+  id              Int     @id @default(autoincrement())
+  title           String  @db.VarChar(255)
+  mainPictureUrl  String  @db.VarChar(255)
+  description     String? @db.Text
+  linkGithub      String? @db.VarChar(255)
+  linkDeployement String? @db.VarChar(255)
 }

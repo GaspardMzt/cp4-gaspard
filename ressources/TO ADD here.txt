@@ -1,0 +1,13 @@
+TO DO :
+une image de :
+    les wireframes,
+    le modèle de la base de données
+    le backlog produit.
+
+
+##############################"
+To run the application :
+    make sure you are inside the project's folder on VScode
+    open up a terminal
+    run yarn install // npm i to install the dependencies of the project
+    npm run start to run the application, open at the address localhost:3000
