@@ -1,13 +1,7 @@
-import Link from "next/link";
-
-export default function Foter() {
+export default function Footer() {
   return (
     <header>
-      <div className="ml-4  md:ml-48">
-        <Link href="/">
-          <a>Footer</a>
-        </Link>
-      </div>
+      <div></div>
     </header>
   );
 }

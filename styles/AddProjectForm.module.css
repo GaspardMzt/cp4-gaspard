@@ -1,0 +1,40 @@
+.formContainer {
+  margin: 10px auto;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelForm {
+  margin: 20px auto 0px;
+  font-size: 1.5em;
+}
+
+.inputForm {
+  width: 100%;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 5px rgba(142, 142, 142, 0.25);
+  border-radius: 18px;
+}
+
+.textareaForm {
+  font-size: 1.2em;
+  height: 100px;
+  resize: none;
+  box-shadow: 0px 0px 10px 5px rgba(142, 142, 142, 0.25);
+  border-radius: 18px;
+  width: 100%;
+}
+
+.buttonValidate {
+  margin: 25px auto 0px;
+  width: 150px;
+  font-size: 1.2em;
+  border-radius: 40px;
+  border: none;
+  padding: 5px 0px 5px 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
